@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="11" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="2137" started-at="2019-09-08T06:05:24Z" finished-at="2019-09-08T06:05:27Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="2137" started-at="2019-09-08T06:05:24Z" finished-at="2019-09-08T06:05:27Z">
+      <class name="com.lemon.api.auto.cases.Register">
+        <test-method status="PASS" signature="initData(org.testng.ITestContext)[pri:0, instance:com.lemon.api.auto.cases.Register@55f3ddb1]" name="initData" is-config="true" duration-ms="1552" started-at="2019-09-08T14:05:23Z" finished-at="2019-09-08T14:05:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@44d52de2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initData -->
+        <test-method status="PASS" signature="test1(com.lemon.api.auto.pojo.TestData)[pri:0, instance:com.lemon.api.auto.cases.Register@55f3ddb1]" name="test1" duration-ms="202" started-at="2019-09-08T14:05:24Z" data-provider="datas" finished-at="2019-09-08T14:05:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestData [url=http://test.lemonban.com/futureloan/mvc/api/member/register, type=post, apiType=form, params={"mobilephone":"19000000000","pwd":""}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(com.lemon.api.auto.pojo.TestData)[pri:0, instance:com.lemon.api.auto.cases.Register@55f3ddb1]" name="test1" duration-ms="33" started-at="2019-09-08T14:05:25Z" data-provider="datas" finished-at="2019-09-08T14:05:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestData [url=http://test.lemonban.com/futureloan/mvc/api/member/register, type=post, apiType=form, params={"mobilephone":"","pwd":"123457"}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(com.lemon.api.auto.pojo.TestData)[pri:0, instance:com.lemon.api.auto.cases.Register@55f3ddb1]" name="test1" duration-ms="47" started-at="2019-09-08T14:05:25Z" data-provider="datas" finished-at="2019-09-08T14:05:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestData [url=http://test.lemonban.com/futureloan/mvc/api/member/register, type=post, apiType=form, params={"mobilephone":"19","pwd":"123458"}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(com.lemon.api.auto.pojo.TestData)[pri:0, instance:com.lemon.api.auto.cases.Register@55f3ddb1]" name="test1" duration-ms="30" started-at="2019-09-08T14:05:25Z" data-provider="datas" finished-at="2019-09-08T14:05:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestData [url=http://test.lemonban.com/futureloan/mvc/api/member/register, type=post, apiType=form, params={"mobilephone":"19000000000","pwd":"123"}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(com.lemon.api.auto.pojo.TestData)[pri:0, instance:com.lemon.api.auto.cases.Register@55f3ddb1]" name="test1" duration-ms="1104" started-at="2019-09-08T14:05:25Z" data-provider="datas" finished-at="2019-09-08T14:05:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestData [url=http://test.lemonban.com/futureloan/mvc/api/member/register, type=post, apiType=form, params={"mobilephone":"19000000000","pwd":"123460"}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:com.lemon.api.auto.cases.Register@55f3ddb1]" name="finish" is-config="true" duration-ms="199" started-at="2019-09-08T14:05:27Z" finished-at="2019-09-08T14:05:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finish -->
+      </class> <!-- com.lemon.api.auto.cases.Register -->
+      <class name="com.lemon.api.auto.cases.RechargeCase">
+        <test-method status="PASS" signature="test1(com.lemon.api.auto.pojo.TestData)[pri:0, instance:com.lemon.api.auto.cases.RechargeCase@18be83e4]" name="test1" duration-ms="43" started-at="2019-09-08T14:05:26Z" data-provider="datas" finished-at="2019-09-08T14:05:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestData [url=http://test.lemonban.com/futureloan/mvc/api/member/recharge, type=post, apiType=form, params={"mobilephone":"13181234567","amount":""}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(com.lemon.api.auto.pojo.TestData)[pri:0, instance:com.lemon.api.auto.cases.RechargeCase@18be83e4]" name="test1" duration-ms="141" started-at="2019-09-08T14:05:26Z" data-provider="datas" finished-at="2019-09-08T14:05:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestData [url=http://test.lemonban.com/futureloan/mvc/api/member/recharge, type=post, apiType=form, params={"mobilephone":"13181111111","amount":"222"}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(com.lemon.api.auto.pojo.TestData)[pri:0, instance:com.lemon.api.auto.cases.RechargeCase@18be83e4]" name="test1" duration-ms="137" started-at="2019-09-08T14:05:26Z" data-provider="datas" finished-at="2019-09-08T14:05:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestData [url=http://test.lemonban.com/futureloan/mvc/api/member/recharge, type=post, apiType=form, params={"mobilephone":"13181234567","amount":"100"}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.lemon.api.auto.cases.RechargeCase -->
+      <class name="com.lemon.api.auto.cases.LoginCases">
+        <test-method status="PASS" signature="test1(com.lemon.api.auto.pojo.TestData)[pri:0, instance:com.lemon.api.auto.cases.LoginCases@8bd1b6a]" name="test1" duration-ms="120" started-at="2019-09-08T14:05:26Z" data-provider="datas" finished-at="2019-09-08T14:05:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestData [url=http://test.lemonban.com/futureloan/mvc/api/member/login, type=post, apiType=form, params={"mobilephone":"19000000000","pwd":"123456"}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(com.lemon.api.auto.pojo.TestData)[pri:0, instance:com.lemon.api.auto.cases.LoginCases@8bd1b6a]" name="test1" duration-ms="55" started-at="2019-09-08T14:05:26Z" data-provider="datas" finished-at="2019-09-08T14:05:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestData [url=http://test.lemonban.com/futureloan/mvc/api/member/login, type=post, apiType=form, params={"mobilephone":"","pwd":"123457"}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(com.lemon.api.auto.pojo.TestData)[pri:0, instance:com.lemon.api.auto.cases.LoginCases@8bd1b6a]" name="test1" duration-ms="140" started-at="2019-09-08T14:05:26Z" data-provider="datas" finished-at="2019-09-08T14:05:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TestData [url=http://test.lemonban.com/futureloan/mvc/api/member/login, type=post, apiType=form, params={"mobilephone":"13181234567","pwd":"666666"}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.lemon.api.auto.cases.LoginCases -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
